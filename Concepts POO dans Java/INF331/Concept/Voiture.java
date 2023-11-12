@@ -1,4 +1,4 @@
-package concept;
+package INF331.Concept;
 public class Voiture{
     private String nom;
     private int puissance;

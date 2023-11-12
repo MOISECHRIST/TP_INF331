@@ -1,4 +1,5 @@
-import concept.Voiture;
+package INF331.TestConcept;
+import INF331.Concept.Voiture;
 public class TestVoiture {
     public static void main(String[] args){
         System.out.println("\n---Initialisation---\n");
