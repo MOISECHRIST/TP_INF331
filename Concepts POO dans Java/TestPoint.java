@@ -1,5 +1,3 @@
-package INF331.TestConcept;
-
 import INF331.Concept.Point;
 public class TestPoint{
     public static void main(String agrs[]){
