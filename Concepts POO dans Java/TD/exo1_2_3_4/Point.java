@@ -1,4 +1,4 @@
-package TD;
+package TD.exo1_2_3_4;
 import java.lang.Math;
 public class Point{
 
@@ -14,6 +14,10 @@ public class Point{
 		this.abscisse=abscisse;
 		this.ordonnee=ordonnee;
 	}
+
+	public void identifier(){
+        System.out.println("Je suis un point");
+    }
 
 	//Methode pour deplacer un point
 	public void deplacer(double dabscisse, double dordonnee){
@@ -43,7 +47,7 @@ public class Point{
 
 	//Methode pour afficher les coordonnées d'un point
 	public void afficher(){
-		System.out.println("Je suis le poin de coordonnées "+abscisse+" et "+ordonnee);
+		System.out.println("Je suis le point de coordonnées "+abscisse+" et "+ordonnee);
 	}
 
 	//Methode pour calculer la distance entre un point acruelet un point distant
